@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     "accounts",
     "rest_framework",
     "api",
+    'whitenoise.runserver_nostatic',
 )
 
 MIDDLEWARE = (
